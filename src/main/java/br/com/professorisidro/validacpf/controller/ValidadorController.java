@@ -19,4 +19,10 @@ public class ValidadorController {
 		 return "{\"status\": \"invalido\"}";
 	}
 
+	@GetMapping("/")
+	public String validaCPF(@RequestParam String cpf) {
+		
+		 return "{\"mensagem\": \"esta é uma api\"}";
+	}
+
 }
