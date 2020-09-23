@@ -20,7 +20,7 @@ public class ValidadorController {
 	}
 
 	@GetMapping("/")
-	public String validaCPF(@RequestParam String cpf) {
+	public String home() {
 		
 		 return "{\"mensagem\": \"esta é uma api\"}";
 	}
